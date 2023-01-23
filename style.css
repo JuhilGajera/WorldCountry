@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mainupperdiv {
+  width: 98%;
+  height: 20%;
+  background-color: #edefef;
+  box-shadow: inset 0px 0px 2px;
+}
+.maincontainerupperdivupper {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.maincontainerupperdivlower {
+  width: 100%;
+  height: 40%;
+
+  display: flex;
+  justify-content: center;
+}
+.maincontainermiddlediv {
+  width: 98%;
+  height: 10%;
+
+  background-color: #f2f2f2;
+}
+.maincontainermiddledivlower,
+.maincontainermiddledivupper {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button{
+  margin-left: 1rem;
+  width: 10%;
+  height: 80%;
+  border: none;
+}
+.maincontainerlowerdiv {
+  width: 98%;
+  height: 65%;
+  background-color: #eeefef;
+  box-shadow: 0px 0px 2px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  width: 100%;
+  height: 10%;
+  display: flex;
+}
+.namediv {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.graphdiv {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.totalpopulationsdiv {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+h1 {
+  color: #f2a93b;
+}

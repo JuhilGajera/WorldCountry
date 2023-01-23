@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World countries Data</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="countries.js"></script>
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="mainupperdiv">
+        <div class="maincontainerupperdivupper">
+          <h1>World countries data</h1>
+        </div>
+        <div class="maincontainerupperdivlower">
+          <h4 id="currentcountrylength"></h4>
+        </div>
+      </div>
+      <div class="maincontainermiddlediv">
+        <div class="maincontainermiddledivupper">
+          <button
+            class="button"
+            style="background-color: #fb9b0b"
+            onclick="getpopulations()"
+          >
+            POPULATION
+          </button>
+          <button
+            class="button"
+            style="background-color: #fe9e0f"
+            onclick="getlanguage()"
+          >
+            LANGUAGE
+          </button>
+        </div>
+        <div class="maincontainermiddledivlower">
+          <h4 id="paragraph"></h4>
+        </div>
+      </div>
+      <div class="maincontainerlowerdiv" id="maincontainerlowerdiv"></div>
+    </div>
+  </body>
+</html>
